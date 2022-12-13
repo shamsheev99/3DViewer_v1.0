@@ -1,0 +1,68 @@
+\input texinfo
+@setfilename manual
+@settitle 3DViewer v1.0
+@documentencoding UTF-8
+
+@copying
+Copyright © 2022 by locie
+@end copying
+
+@titlepage
+@title Short guide to using the 3DViewer.
+@vskip 
+@insertcopying
+@author locie
+@end titlepage
+
+@ifnottex
+@node Top
+@top 3DViewer v1.0
+@insertcopying
+@end ifnottex
+
+@menu
+* Basic information:: This section provides general information about the operation of 3D_Viewer.
+* Interface:: This section provides information about the basic user interface
+* Basic affine transformations:: This section provides information about basic affine transformations (move, rotate, and scale).
+@end menu
+
+@node Basic information
+@chapter Basic information
+
+3D_Viewer is developed in the C/C++ programming language using QT Creator version 6.2.
+The program is designed to view 3D models in a wireframe viewer (3D Viewer). Models are loaded from .obj files and can be viewed on the screen with the ability to rotate, scale and move.
+
+@node Interface
+@chapter Interface
+
+@enumerate
+@item
+Open file:
+Click the "File" button to open the file. Select the file with the .obj extension and click "Open". The model will be displayed in the visualization area.
+@item
+Return button:
+The "Return" button is used to reset the model to its original state.
+@item
+Zoom slider:
+At the bottom right of the screen there is a "Zoom" slider to zoom in and out of the loaded model.
+@item
+Status bar:
+The status bar displays information about the loaded model - file name, number of vertices and edges.
+@end enumerate
+
+@node Basic affine transformations
+@chapter Basic affine transformations
+
+@enumerate
+@item
+Move model:
+To move the model, enter the distance in the corresponding'x', 'y' and 'z' fields by which you want to move it. Then click the "Move" button. The changes will be displayed in the visualization area
+@item
+Rotate modet:
+To rotate the model, enter the angles in the corresponding fields in the 'x', 'y' and 'z' axes by which you want to rotate it. Then click the "Rotate" button. The changes will be displayed in the visualization area.
+@item
+Scale model:
+To change the scale of the model, enter its new value in the corresponding fields on the 'x', 'y' and 'z' axes. Then press the 'Scale' button. The changes will be displayed in the visualization area.
+@end enumerate
+
+@bye
