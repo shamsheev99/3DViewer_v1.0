@@ -1,18 +1,10 @@
 # 3DViewer v1.0
 
-> При старте работы над проектом просим вас постараться хронометрировать время работы над проектом.
-> По завершении работы над проектом просим вас ответить на два вопроса [в этом опросе](https://forms.gle/51aADrXJGHYH9jEi6)
-
 Implementation of 3DViewer v1.0.
-
-The russian version of the task can be found in the repository.
-
 
 ## Contents
 
-0. [Preamble](#preamble)
 1. [Chapter I](#chapter-i) \
-   1.1. [Introduction](#introduction)
 2. [Chapter II](#chapter-ii) \
    2.1. [Information](#information)
 3. [Chapter III](#chapter-iii) \
@@ -21,45 +13,7 @@ The russian version of the task can be found in the repository.
    3.3. [Part 3](#part-3-bonus-record)
 
 
-## Preamble
-
-![3DViewer](misc/images/3dviewer.png)
-
-Somewhere near the water cooler in '90:
-
-*-- We can't make a cartoon about animals.*
-
-*- Why the hell not? John, your Tin Toy has made a splash! Imagine what will happen when the world sees something like 101 Dalmatians in 3d!*
-
-*-- Well, that’s the problem. There is not yet enough computational power to animate complex objects. The animals would have to wait, because it’s not possible to simulate their fur. Either it will be a cartoon about bald animals. We have to wait a few years for Moore's Law to work its way through.*
-
-*- Well, okay, what about people? Why can’t we make a cartoon about people?*
-
-*-- We can, except it would be a horror movie, because their faces will look the same as yours now, trying to convince me to make a fatal mistake.*
-
-You realised that Lasseter's arguments were too convincing and there was no point in arguing.
-
-*- Fine, let’s say you’re right. But what cartoon should we make?*
-
-*-- It's simple, my friend. It will be a cartoon about toys, like the short one that brought us the Oscar. The natural shape of the toys will fit perfectly with the low-poly 3d models we're able to animate. And these are toys after all, so poor facial expressions won't be critical. And there's already a plot in my mind. Let's bring them to life! The story will be based on the relationship between the toys and the child.*
-
-*- Sounds interesting!*
-
-*-- It is. You should go to your team asap and start developing 3d modelling software. If we want to make this cartoon, we need our own software tools. The ones that on the market will only allow us to animate a wooden pyramid, and even then in the form of a cube.*
-
-*- Okay, but first, we need to do the most important thing - the preview screen.*
-
-*-- Good luck!*
-
-Pixar had over 100 computers to render the 3d scenes. Recognising the potential of such power, you gave an inspirational speech to your team praising 3d visualisation technology and then quickly got to work! This cartoon is destined to make history...
-
-
 ## Chapter I
-
-## Introduction
-
-In this project you will implement a program to view 3D wireframe models (3D Viewer) in the C programming language. The models themselves must be loaded from .obj files and be viewable on the screen with the ability to rotate, scale and translate.
-
 
 ## Chapter II
 
